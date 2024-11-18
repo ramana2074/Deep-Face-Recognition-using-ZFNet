@@ -44,13 +44,7 @@ The ZFNet-inspired model consists of:
   - Epochs: 45
   - Batch Size: 16
 
----
 
-## Performance
-- **Validation Accuracy**: **96.67%**
-- Number of Classes: **15**
-
----
 
 ## Setup and Usage
 ### Prerequisites
