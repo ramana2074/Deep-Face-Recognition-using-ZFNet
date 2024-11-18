@@ -1,17 +1,17 @@
-# Deep Face Recognition using ZFNet-Inspired Model
+# Deep Face Recognition using ZFNet Model
 
-This project implements a face recognition system using a simplified ZFNet-inspired architecture, optimized for performance and accuracy. It aligns with the methodology discussed in the paper **"Deep Face Recognition based on an Optimized Deep Neural Network using ZFNet"**.
+This project implements a face recognition system using a simplified ZFNet architecture, optimized for performance and accuracy.
 
 ---
 
 ## Project Overview
 
-The model architecture is inspired by ZFNet, leveraging convolutional neural networks (CNNs) for image classification. It has been tailored and optimized for face recognition, achieving high validation accuracy with a compact and efficient design.
+The model architecture is ZFNet, leveraging convolutional neural networks (CNNs) for image classification. It has been tailored and optimized for face recognition, achieving high validation accuracy with a compact and efficient design.
 
 ---
 
 ## Features
-- **ZFNet-Inspired Architecture**: The network design is based on ZFNet principles, focusing on feature extraction with convolutional layers.
+- **ZFNet Architecture**: The network design is based on ZFNet principles, focusing on feature extraction with convolutional layers.
 - **Optimized Training Pipeline**: Includes data augmentation and adaptive learning rate adjustments.
 - **High Accuracy**: Achieved a validation accuracy of **96.67%** with 15 face classes.
 - **Callbacks for Efficiency**:
@@ -24,8 +24,9 @@ The database contains 165 GIF images of 15 subjects (subject01, subject02, etc.)
 of the following facial expressions or configurations: center-light, w/glasses, happy, left-light, w/no glasses, normal, right-light, 
 sad, sleepy, surprised, and wink.  Note that the image "subject04.sad" has been corrupted and has been substituted by "subject04.normal".
 Dataset : https://www.kaggle.com/datasets/olgabelitskaya/yale-face-database/data
+
 ## Model Architecture
-The ZFNet-inspired model consists of:
+The ZFNet model consists of:
 1. **Convolutional Layers**: 
    - Feature extraction using varying kernel sizes: `7x7`, `5x5`, and `3x3`.
    - Activation: ReLU.
